@@ -1,0 +1,60 @@
+name: fmanager
+description: Farm management app
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0-262.2.beta <4.0.0'
+
+
+dependencies:
+  get: ^4.6.5
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  file_picker: ^5.3.4
+  crypto: ^3.0.3
+  timeago:
+  path_provider:
+  dio:
+  dio_cookie_manager:
+  intl:
+  hive:
+  permission_handler:
+  flutter_downloader:
+  dio_logger:
+  connectivity:
+  injectable:
+  hive_flutter:
+  shared_preferences:
+  flutter_secure_storage: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  injectable_generator:
+  hive_generator:
+  flutter_launcher_icons:
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-Italic.ttf
+          weight: 700
+          style: italic
+    - family: Prata
+      fonts:
+        - asset: assets/font/Prata-Regular.ttf
+          weight: 700
+  assets:
+    - images/
+    - assets/images/
+    - assets/svgs/
